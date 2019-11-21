@@ -71,19 +71,14 @@ hr {
 
 /* -- NAV BAR -- */
 .nav {
-	padding-bottom: 8%;
-}
-
-.mobile-menu {
-	display: none;
+	padding-bottom: 10%;
 }
 
 nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background-color: #4266B2;
-	padding: 2%;
+	background-color: #BA1334;
 	position: fixed;
 	width: 100%;
 }
@@ -135,7 +130,15 @@ h3 {
 }
 
 .hero-image {
-	width: 38%;
+	width: 60%;
+}
+
+.hero-section {
+	display: flex;
+}
+.services-info {
+	width: 40%;
+	padding-top: 8%;
 }
 
 /* -- CONTENT SECTION -- */
