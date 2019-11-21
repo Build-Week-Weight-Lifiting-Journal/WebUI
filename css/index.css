@@ -63,12 +63,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-
-hr {
-	margin: 0% 5%;
-}
-
 /* -- NAV BAR -- */
 .nav {
 	padding-bottom: 8%;
@@ -83,6 +77,10 @@ nav {
 	width: 100%;
 }
 
+.logo-link {
+	width: 300px;
+}
+
 .nav-links a {
 	color: white;
 	font-size: 24px;
@@ -93,14 +91,6 @@ nav {
 
 .nav-links a:hover {
 	text-decoration: underline;
-}
-
-.logo {
-	width: 20%;
-}
-
-h3 {
-	font-size: 20px;
 }
 
 /* -- HERO SECTION -- */
@@ -147,53 +137,9 @@ h3 {
     font-size: 64px !important;
 }
 
-/* -- CONTENT SECTION -- */
-.content {
-	margin: 0% 5%;
-}
 
-.content-top, .content-bottom {
-	display: flex;
-}
-
-.content-info {
-	width: 46%;
-	padding: 3% 0%;	
+h3, p, a {
 	font-size: 24px;
-}
-
-.content-info p {
-	font-size: 24px;
-	line-height: 30px;
-}
-
-.middle-img {
-	width: 100%;
-}
-
-/* -- CONTACT SECTION -- */
-.contact {
-	margin: 2% 0%;
-}
-.contact h3, p, a {
-	font-size: 24px;
-}
-.contact h3 {
-	margin: 2% 5%;
-	font-weight: bold;
-	text-decoration: underline;
-}
-
-.contact p {
-	margin: 2% 5%;
-}
-
-.contact a {
-	margin: 2% 5%;
-}
-
-.contact-page {
-	text-align: center;
 }
 
 /* -- FOOTER -- */
@@ -203,28 +149,10 @@ footer {
 	margin: 5%;
 }
 
-/* ---------- SERVICES PAGE ---------- */
-
-/* -- NAV BAR -- */
-.logo-link {
-	width: 325px;
-}
 
 /* -- SERVICES INFO -- */
 .services-info {
 	margin: 2% 8%;
-}
-
-.services-info h1 {
-	font-size: 28px;
-}
-
-.services-info p {
-	font-size: 22px;
-}
-
-.services-header-img {
-	width: 100%;
 }
 
 /* -- SERVICES SECTION -- */
@@ -240,6 +168,7 @@ footer {
 
 .service {
 	border: 1px solid grey;
+	border-radius: 5px;
 	margin: 2%;
 	width: 40%;
 	padding: 1.5%;
