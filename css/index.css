@@ -71,7 +71,7 @@ hr {
 
 /* -- NAV BAR -- */
 .nav {
-	padding-bottom: 10%;
+	padding-bottom: 8%;
 }
 
 nav {
@@ -130,15 +130,21 @@ h3 {
 }
 
 .hero-image {
-	width: 60%;
+	width: 100%;
 }
 
 .hero-section {
-	display: flex;
+	/* display: flex; */
+	background-image: url('../img/header-weightlifting.jpg');
 }
 .services-info {
-	width: 40%;
-	padding-top: 8%;
+	padding: 10%;
+	text-align: center;
+	color: white;
+}
+
+.services-info h1 {
+    font-size: 48px !important;
 }
 
 /* -- CONTENT SECTION -- */
