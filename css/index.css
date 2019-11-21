@@ -194,6 +194,7 @@ nav {
 .hero-section {
   background-image: url('../img/header-weightlifting.jpg');
   background-size: cover;
+  overflow: hidden;
 }
 .services-info {
   padding: 20%;
@@ -233,7 +234,8 @@ footer {
   margin: 2%;
   width: 40%;
   padding: 1.5%;
-  background-color: #F4F3F4;
+  color: white;
+  background-color: #BA1334;
 }
 .service h2 {
   font-size: 24px;
