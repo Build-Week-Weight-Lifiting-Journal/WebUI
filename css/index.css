@@ -1,4 +1,10 @@
 /* Run: less-watch-compiler less css index.less */
+.btn {
+  padding: 2% 14%;
+  background: none;
+  border: 2px solid black;
+  font-size: 28px;
+}
 html,
 body,
 div,
@@ -196,10 +202,16 @@ nav {
   background-size: cover;
   overflow: hidden;
 }
+.content-image {
+  width: 80%;
+}
 .services-info {
   padding: 20%;
   text-align: center;
   color: white;
+}
+.service {
+  text-align: center;
 }
 .services-info h1 {
   font-size: 64px !important;

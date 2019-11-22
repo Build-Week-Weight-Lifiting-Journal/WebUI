@@ -1,6 +1,11 @@
  /* Run: less-watch-compiler less css index.less */
  @font: 'Titillium Web', sans-serif;
 
+.btn(@background, @size) {
+    background: @color;
+    font-size: @size;
+}
+
 
  html, body, div, span, applet, object, iframe,
  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -112,10 +117,11 @@
  }
  
  .hero-title button {
+     .btn(none, 28px);
      padding: 2% 14%;
-     background: none;
+    //  background: none;
      border: 2px solid black;
-     font-size: 28px;
+    //  font-size: 28px;
  }
  
  .hero-image {
@@ -127,10 +133,17 @@
      background-size: cover;
      overflow: hidden;
  }
+
+ .content-image {
+     width: 80%;
+ }
  .services-info {
      padding: 20%;
      text-align: center;
      color: white;
+ }
+ .service {
+     text-align: center;
  }
  
  .services-info h1 {
